@@ -13,7 +13,7 @@ const Post = ({ blog, profile, author }) => {
     <Head>
       <meta charset="utf-8" />
 
-      <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+      <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
 
       <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
 
@@ -54,7 +54,7 @@ const Post = ({ blog, profile, author }) => {
 
       <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
-      <link crossorigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
+      <link crossOrigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
 
       <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
 
@@ -71,29 +71,29 @@ const Post = ({ blog, profile, author }) => {
     <NavBar profile={profile} />
 
     <div>
-      <div class="container py-6 md:py-10">
-        <div class="mx-auto max-w-4xl">
-          <div class="">
+      <div className="container py-6 md:py-10">
+        <div className="mx-auto max-w-4xl">
+          <div className="">
             <h1
-              class="pt-5 font-body text-3xl font-semibold text-primary sm:text-4xl md:text-5xl xl:text-6xl">
+              className="pt-5 font-body text-3xl font-semibold text-primary sm:text-4xl md:text-5xl xl:text-6xl">
               {blog.title}
             </h1>
-            <div class="flex items-center pt-5 md:pt-10">
+            <div className="flex items-center pt-5 md:pt-10">
               <div>
                 <img src="/assets/img/blog-author.jpg"
-                  class="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
+                  className="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
                   alt="author image" />
               </div>
-              <div class="pl-5">
+              <div className="pl-5">
 
-                <span class="block font-body text-xl font-bold text-grey-10">By {author.title}</span>
+                <span className="block font-body text-xl font-bold text-grey-10">By {author.title}</span>
 
-                <span class="block pt-1 font-body text-xl font-bold text-grey-30">
+                <span className="block pt-1 font-body text-xl font-bold text-grey-30">
                   Release Date :- {blog.launchAt}</span>
               </div>
             </div>
           </div>
-          <div class="prose max-w-none pt-8">
+          <div className="prose max-w-none pt-8">
             <PortableText
               // Pass in block content straight from Sanity.io
               content={blog.content}
