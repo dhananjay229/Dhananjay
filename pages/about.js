@@ -93,7 +93,7 @@ const About = ({ profile }) => {
           <div className="flex flex-col items-center pl-0 text-center lg:mb-100 lg:w-1/2 lg:flex-grow
               lg:items-start lg:pl-12 lg:pr-24 lg:text-left lg:pb-24">
             <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">
-              What's up, Dear Reader. I'm <span className="text-cyan-500">Dhananjay Kumar</span>
+              What&apos;s up, Dear Reader I&apos;m <span className="text-cyan-500">Dhananjay Kumar</span>
             </h2>
             <p className="text-md mb-8 ">
               I am currently working as Associate Technology at Techchefz Digital pvt.ltd.<br></br>
@@ -103,7 +103,7 @@ const About = ({ profile }) => {
               I am much interested in working with Data Science related application which excite me a lot.
               <br></br>
               You can find my work, thoughts, and ideas here.<br></br>
-              Check out my portfolio to see iPython notebooks and Github repos for some of the projects I've worked on.
+              Check out my portfolio to see iPython notebooks and Github repos for some of the projects I&apos;ve worked on.
             </p>
             <div className="flex ">
               <div className="mr-8">
