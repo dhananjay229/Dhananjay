@@ -40,7 +40,7 @@ const About = ({ profile }) => {
 
       <Head>
         <meta charset="utf-8" />
-        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+        <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
 
         <meta property="og:title" content="Data Science Portfolio" />
@@ -56,7 +56,7 @@ const About = ({ profile }) => {
         <meta property="og:image" content="//assets/img/social.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@tailwindmade" />
-        <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
+        <link crossOrigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
 
         <link as="style"
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
@@ -65,7 +65,7 @@ const About = ({ profile }) => {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
           rel="stylesheet" />
         <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-        <link crossorigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
+        <link crossOrigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
         <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <script
@@ -212,7 +212,7 @@ const About = ({ profile }) => {
             <p className="text-sm text-gray-600 mb-2">This is the first certificate of my journey in Data Science
               . I have achieved it in December 2020. where I learned about python, EDA, and data visualization tools.</p>
             <a href="https://drive.google.com/file/d/1-YdBsAbriAPIF8_ujkatiOdieS3Hu9Ez/view?usp=sharing"
-              className="text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500" target="_blank">See Credential</a>
+              className="text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500">See Credential</a>
             <a href="https://github.com/dhananjay229/Data-Science"
               className="pl-20 text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500">Github</a>
           </div>
@@ -222,7 +222,7 @@ const About = ({ profile }) => {
             <p className="text-sm text-gray-600 mb-2">Learn how to build machine learning models in Python using popular machine learning
               libraries NumPy and scikit-learn. and  train supervised machine learning models for prediction.</p>
             <a href="https://drive.google.com/file/d/1jev8TlIW9s2Uq6uhlHm99tpRFoLBpCWr/view?usp=sharing"
-              className="text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500" target="_blank">See Credential</a>
+              className="text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500" >See Credential</a>
             <a href="https://github.com/dhananjay229/Machine_Learning"
               className="pl-20 text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500">Github</a>
 
@@ -233,7 +233,7 @@ const About = ({ profile }) => {
             <p className="text-sm text-gray-600 mb-2">I learned about the foundational concept of neural networks and deep learning.
               where I build and train neural network architectures such as Convolutional Neural Networks.</p>
             <a href="https://coursera.org/verify/DDZZLG7LKQ9Q"
-              className="text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500" target="_blank">See Credential</a>
+              className="text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500">See Credential</a>
             <a href="https://github.com/dhananjay229/Facial_Expression_Recognition"
               className="pl-20 text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500">Github</a>
           </div>
@@ -243,7 +243,7 @@ const About = ({ profile }) => {
             <p className="text-sm text-gray-600 mb-2">Learn text processing fundamentals, including stemming and lemmatization. Explore machine
               learning methods in sentiment analysis. Build a speech tagging model.</p>
             <a href="https://graduation.udacity.com/confirm/PLK4N6KK"
-              className="text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500" target="_blank">See Credential</a>
+              className="text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500">See Credential</a>
             <a href="https://github.com/dhananjay229/Natural_Language_Processing_UDACITY"
               className="pl-20 text-indigo-700 border-indigo-200 hover:border-indigo-500 hover:text-indigo-500">Github</a>
           </div>
