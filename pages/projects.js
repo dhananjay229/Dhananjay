@@ -30,7 +30,7 @@ const Projects = ({ project, profile }) => {
     <Head>
 
       <meta charset="utf-8" />
-      <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+      <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
       <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
       <title>{project.title}</title>
       <meta property="og:title" content="Data Science Portfolio" />
@@ -44,12 +44,12 @@ const Projects = ({ project, profile }) => {
       <meta property="og:image" content="assets\img\social.jpg" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@tailwindmade" />
-      <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
+      <link crossOrigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
       <link as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="preload" />
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
         rel="stylesheet" />
       <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-      <link crossorigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
+      <link crossOrigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
       <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
       <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
@@ -67,7 +67,7 @@ const Projects = ({ project, profile }) => {
           Check out my Portfolio
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-          Here's what I have done with the past
+          Here&apos;s what I have done with the past
         </h3>
 
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
