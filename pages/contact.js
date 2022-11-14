@@ -73,8 +73,8 @@ const Contact = ({ profile }) => {
 
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css" />
-        <script src="https://www.google.com/recaptcha/api.js?&render=explicit" async defer></script>
-        //<script src="https://unpkg.com/react-tabs/dist/react-tabs.production.min.js" />
+        <script src="https://www.google.com/recaptcha/api.js?&render=explicit" async></script>
+        //<script src="https://unpkg.com/react-tabs/dist/react-tabs.production.min.js" async/>
 
 
       </Head>
