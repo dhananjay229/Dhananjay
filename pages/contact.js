@@ -72,7 +72,7 @@ const Contact = ({ profile }) => {
         <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js' async></script>
 
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css" />
+        //<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css" />
        // <script src="https://www.google.com/recaptcha/api.js?&render=explicit" async></script>
         //<script src="https://unpkg.com/react-tabs/dist/react-tabs.production.min.js" async/>
 
