@@ -33,7 +33,7 @@ export default function Home({ blog,project }) {
       <Head>
 
         <meta charset="utf-8" />
-        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+        <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
         <title>{profile.title} - Developer | Coder | Software Geek</title>
         <meta property="og:title" content="Homepage | Data Science Portfolio" />
@@ -47,7 +47,7 @@ export default function Home({ blog,project }) {
         <meta property="og:image" content="assets\img\social.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@tailwindmade" />
-        <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
+        <link crossOrigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
         <link as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="preload" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
           rel="stylesheet" />
@@ -70,15 +70,15 @@ export default function Home({ blog,project }) {
 
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div className="rounded-full border-8 border-cyan-500 shadow-xl">
-              <img src="assets/img/img-bg.jpg" class="h-48 rounded-full sm:h-56" alt="author" />
+              <img src="assets/img/img-bg.jpg" className="h-48 rounded-full sm:h-56" alt="author" />
             </div>
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
               <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                Hello I'm <span className="text-cyan-500">Dhananjay Kumar</span>
+                Hello I&apos;m <span className="text-cyan-500">Dhananjay Kumar</span>
               </h1>
               <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                 <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
-                  <p className="font-body text-lg uppercase text-white">Let's connect</p>
+                  <p className="font-body text-lg uppercase text-white">Let&apos;s connect</p>
                   <div className="hidden sm:block">
                     <i className="bx bx-chevron-right text-3xl text-cyan-500"></i>
                   </div>
@@ -123,13 +123,13 @@ export default function Home({ blog,project }) {
               Who am I?
             </h2>
             <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            Let's get acquainted! My name is Dhananjay Kumar
+            Let&apos;s get acquainted! My name is Dhananjay Kumar
             </h4>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
             My specialties include quickly learning new skills and programming languages,
             problem solving. So far I have worked on C++, Python(NumPy,Pandas,Matplotlib,Seaborn), MySql, 
             Scikit-Learn, Tensorflow, and Git/GitHub technologies. I enjoy adapting to new programming 
-            languages and expanding my collection of tools for analyzing data. I'm still enthusiastically 
+            languages and expanding my collection of tools for analyzing data. I&apos;m still enthusiastically 
             grabbing onto any other programming languages, frameworks, or principles
             related to Data Science and Machine learning that I can solve the complex Business problems.
             </p>
@@ -220,7 +220,7 @@ export default function Home({ blog,project }) {
 
       <div className="container py-16 md:py-20" id="services">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-          Here's what I'm good at
+          Here&apos;s what I&apos;m good at
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
           These are the technology which I want to work
@@ -345,7 +345,7 @@ export default function Home({ blog,project }) {
           Check out my Portfolio
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-          Here's what I have done with the past
+          Here&apos;s what I have done with the past
         </h3>
 
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
@@ -390,7 +390,7 @@ export default function Home({ blog,project }) {
           My work experience
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-          Here's what I did after graduation
+          Here&apos;s what I did after graduation
         </h3>
 
         <div className="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
