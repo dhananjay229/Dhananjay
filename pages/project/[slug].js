@@ -26,7 +26,7 @@ const Projects = ({ project, profile, author }) => {
   return (<><>
     <Head>
       <meta charset="utf-8" />
-      <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+      <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
       <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
       <title>{project.title}</title>
       <meta property="og:title" content="Data Science Portfolio" />
@@ -40,7 +40,7 @@ const Projects = ({ project, profile, author }) => {
       <meta property="og:image" content="//assets/img/social.jpg" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@tailwindmade" />
-      <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
+      <link crossOrigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
       <link as="style"
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
         rel="preload" />
@@ -48,7 +48,7 @@ const Projects = ({ project, profile, author }) => {
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
         rel="stylesheet" />
       <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-      <link crossorigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
+      <link crossOrigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
       <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
       <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
       <link rel="stylesheet"
@@ -60,9 +60,9 @@ const Projects = ({ project, profile, author }) => {
     <NavBar profile={profile} />
 
     <div>
-      <div class="container py-6 md:py-10">
-        <div class="mx-auto max-w-4xl">
-          <div class="">
+      <div className="container py-6 md:py-10">
+        <div className="mx-auto max-w-4xl">
+          <div className="">
             <h1
               class="pt-5 font-body text-3xl font-semibold text-primary sm:text-4xl md:text-5xl xl:text-6xl">
               {project.title}
@@ -70,21 +70,21 @@ const Projects = ({ project, profile, author }) => {
 
             </h1>
             {/* {author.map((item) => { */}
-            <div class="flex items-center pt-5 md:pt-10">
+            <div className="flex items-center pt-5 md:pt-10">
               <div>
                 <img
                   src="/assets/img/blog-author.jpg"
-                  class="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
+                  className="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
                   alt="author image"
                 // style={{ "backgroundImage": `url(${builder.image(author.image).width(50).url() || '/assets/img/post-01.png'})` }} 
                 />
               </div>
 
-              <div class="pl-5">
+              <div className="pl-5">
 
-                <span class="block font-body text-xl font-bold text-grey-10">By {author.title}</span>
+                <span className="block font-body text-xl font-bold text-grey-10">By {author.title}</span>
 
-                <span class="block pt-1 font-body text-xl font-bold text-grey-30">
+                <span className="block pt-1 font-body text-xl font-bold text-grey-30">
                   Release Date :- {project.launchAt}</span>
               </div>
 
@@ -94,7 +94,7 @@ const Projects = ({ project, profile, author }) => {
 
           </div>
 
-          <div class="prose max-w-none pt-8">
+          <div className="prose max-w-none pt-8">
             <PortableText
               // Pass in block content straight from Sanity.io
               content={project.content}
@@ -123,7 +123,7 @@ const Projects = ({ project, profile, author }) => {
             >
           </div> */}
 
-<div class=" flex   border-t border-lila py-10">
+<div className=" flex   border-t border-lila py-10">
             {/* <a href="/" class="flex items-center">
               <i class="bx bx-left-arrow-alt text-2xl text-primary"></i>
               <span
