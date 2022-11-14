@@ -64,7 +64,7 @@ const Projects = ({ project, profile, author }) => {
         <div className="mx-auto max-w-4xl">
           <div className="">
             <h1
-              class="pt-5 font-body text-3xl font-semibold text-primary sm:text-4xl md:text-5xl xl:text-6xl">
+              className="pt-5 font-body text-3xl font-semibold text-primary sm:text-4xl md:text-5xl xl:text-6xl">
               {project.title}
 
 
