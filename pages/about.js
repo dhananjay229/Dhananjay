@@ -68,16 +68,16 @@ const About = ({ profile }) => {
         <link crossOrigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
         <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-        <script
-          type="text/javascript"
-          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-        </script>
-        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
+//         <script
+//           type="text/javascript"
+//           src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+//         </script>
+//         <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
 
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css" />
         <script src="https://www.google.com/recaptcha/api.js?&render=explicit" async defer></script>
-        <script src="https://unpkg.com/react-tabs/dist/react-tabs.production.min.js" />
+//         <script src="https://unpkg.com/react-tabs/dist/react-tabs.production.min.js" />
 
 
       </Head>
