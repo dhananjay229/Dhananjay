@@ -80,7 +80,7 @@ const Post = ({ blog, profile, author }) => {
             </h1>
             <div className="flex items-center pt-5 md:pt-10">
               <div>
-                <img src="/assets/img/blog-author.jpg"
+                <img src="/assets/img/img-bg.jpg"
                   className="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
                   alt="author image" />
               </div>
