@@ -73,7 +73,7 @@ const Projects = ({ project, profile, author }) => {
             <div className="flex items-center pt-5 md:pt-10">
               <div>
                 <img
-                  src="/assets/img/blog-author.jpg"
+                  src="/assets/img/img-bg.jpg"
                   className="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
                   alt="author image"
                 // style={{ "backgroundImage": `url(${builder.image(author.image).width(50).url() || '/assets/img/post-01.png'})` }} 
