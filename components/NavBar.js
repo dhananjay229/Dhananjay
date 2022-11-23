@@ -12,7 +12,7 @@ export default function Home() {
          <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
           <div >
              <div className="flex items-center justify-between py-3 md:py-5 md:block">
-               <a href="#">
+               <a href="/">
                  <h2 className="text-2xl text-white font-bold">𝕯𝖍𝖆𝖓𝖆𝖓𝖏𝖆𝖞</h2>
                </a>
                <div className="md:hidden">
