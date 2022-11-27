@@ -20,7 +20,7 @@ export default function Home({ blog,project }) {
   const profile = {
     title: "Dhananjay Kumar",
     name: "Dhananjay",
-    image: "https://insanebiography.com/wp-content/uploads/codewithharry_108099807_133124151765153_6863548870509034899_n-min-edited.jpg",
+
     fbLink: "https://facebook.com/",
     twitterLink: "https://twitter.com/",
     instagramLink: "https://instagram.com/",
