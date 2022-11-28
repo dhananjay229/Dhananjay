@@ -40,7 +40,7 @@ export default function Home({ blog,project }) {
         <meta property="og:locale" content="en_US" />
         <link rel="canonical" href="//" />
         <meta property="og:url" content="//" />
-        <meta name="description" content="Data Science,Portfolio,Design,Template,Portfolio Theme,Sanity.io,Nextjs portfolio" />
+        <meta name="description" content="Data Science,Dhananjay Portfolio,Sanity.io,Nextjs,ReactJs portfolio" />
         <link rel="icon" type="image\png" href="assets\img\dk-favicon.ico" />
         <meta name="theme-color" content="#5540af" />
         <meta property="og:site_name" content="Data Science Portfolio" />
