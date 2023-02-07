@@ -86,7 +86,7 @@ const Projects = ({ project, profile }) => {
                   </div>
                 </div>
                 <img alt="" className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                  style={{ "backgroundImage": `url(${builder.image(item.blogimage).width(200).url() || '/assets/img/post-01.png'})` }}
+                  style={{ "backgroundImage": `url(${builder.image(item.blogimage).width(600).url() || '/assets/img/post-01.png'})` }}
                 />
               </div>
             </Link>
