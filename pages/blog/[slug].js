@@ -88,8 +88,8 @@ const Post = ({ blog, profile, author }) => {
 
                 <span className="block font-body text-xl font-bold text-grey-10">By {author.title}</span>
 
-                <span className="block pt-1 font-body text-xl font-bold text-grey-30">
-                  Release Date :- {blog.launchAt}</span>
+                <span className="block pt-1 font-body text-l font-light text-grey-30">
+                  Date :- {blog.launchAt}</span>
               </div>
             </div>
           </div>
