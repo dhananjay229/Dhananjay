@@ -216,7 +216,7 @@ const Contact = ({ profile }) => {
               />
             </svg>
             <p className=" font-semibold text-violet-700 ">
-              freealancer@mywebsite.com
+            https://dhananjay.vercel.app/
             </p>
           </div>
         </div>
