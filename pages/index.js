@@ -363,7 +363,7 @@ export default function Home({ blog,project }) {
                     </div>
                   </div>
                 </div>
-                <img alt="" className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                <img alt="" className="object-cover w-full aspect-[16/9]"
                   style={{ "backgroundImage": `url(${builder.image(item.blogimage).url() || '/assets/img/post-01.png'})`,
                   backgroundRepeat: 'no-repeat',backgroundPosition: 'center', backgroundSize: 'cover' }}
                 // src="https://images.unsplash.com/photo-1650790362847-3c1dd609d0c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" 
