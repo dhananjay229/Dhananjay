@@ -77,7 +77,8 @@ const Blogs = ({ blog, profile }) => {
 
             {blog.map((item) => {
               return <Link key={item.slug.current} href={"/blog/" + item.slug.current} className="shadow">
-                <div><div style={{ "backgroundImage": `url(${builder.image(item.blogimage).width(200).url() || '/assets/img/post-01.png'})` }}
+                <div><div style={{ "backgroundImage": `url(${builder.image(item.blogimage).url() || '/assets/img/post-01.png'})`,
+                backgroundRepeat: 'no-repeat',backgroundPosition: 'center', backgroundSize: 'cover'  }}
                   className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                   <span
                     className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity "></span>
