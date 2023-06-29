@@ -85,7 +85,7 @@ const Projects = ({ project, profile }) => {
                     </div>
                   </div>
                 </div>
-                <img alt="" className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                <img alt="" className="object-cover w-full  aspect-[16/9] group-hover:scale-110 transition duration-300 ease-in-out"
                   style={{ "backgroundImage": `url(${builder.image(item.blogimage).url() || '/assets/img/post-01.png'})`,
                   backgroundRepeat: 'no-repeat',backgroundPosition: 'center', backgroundSize: 'cover'  }}
                 />
