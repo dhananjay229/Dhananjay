@@ -363,7 +363,10 @@ export default function Home({ blog,project }) {
                     </div>
                   </div>
                 </div>
-                <img alt="" className="object-cover w-full aspect-[16/9] "
+
+                
+                <img alt="" className="object-cover w-full aspect-[16/9]"
+
                   style={{ "backgroundImage": `url(${builder.image(item.blogimage).url() || '/assets/img/post-01.png'})`,
                   backgroundRepeat: 'no-repeat',backgroundPosition: 'center', backgroundSize: 'cover' }}
                 />                
