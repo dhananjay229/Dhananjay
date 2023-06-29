@@ -340,49 +340,50 @@ export default function Home({ blog,project }) {
 
       
       <div className="bg-gray-50" id="portfolio">
-      <div className="container py-16 md:py-20">
-        <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-          Check out my Portfolio
-        </h2>
-        <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-          Here&apos;s what I have done with the past
-        </h3>
+        <div className="container py-16 md:py-20">
+          <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+            Check out my Portfolio
+          </h2>
+          <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+            Here's what I have done with the past
+          </h3>
 
-        <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-
+          <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
+{/* overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group */}
           {project.map((item) => {
             return <Link key={item.slug.current} href={"/project/" + item.slug.current} className="shadow">
-              <div className="overflow-hidden cursor-pointer rounded-xl relative group">
-                <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer
-                 absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
+              <div className="cursor-pointer rounded-xl relative group overflow-hidden">                          
+                <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
                   <div>
-                    <div className=" p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 
-                    translate-y-4 pb-10 transform transition duration-300 ease-in-out">
+                    <div className="transformgpu  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
                       <div className="font-bold text-cyan-500">{item.title}</div>
-                      <div className="opacity-60 text-sm text-cyan-300 ">{item.metadesc}</div>
+                      <div className="opacity-60 text-sm text-cyan-300 ">{item.metadesc}
+
+                      </div>
                     </div>
                   </div>
                 </div>
-                <img alt="" className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                <img alt="" className="object-cover w-full aspect-[16/9] "
                   style={{ "backgroundImage": `url(${builder.image(item.blogimage).url() || '/assets/img/post-01.png'})`,
                   backgroundRepeat: 'no-repeat',backgroundPosition: 'center', backgroundSize: 'cover' }}
-                // src="https://images.unsplash.com/photo-1650790362847-3c1dd609d0c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" 
-                />
+                />                
               </div>
+              
             </Link>
           })}
+
         </div>
-        <Link href={'/projects'}>
+          <Link href={'/projects'}>
             <div className="pt-10 flex flex-row justify-center">
               <button
                 className="px-10 mt-8 py-2 bg-[#130F49] text-cyan-500 font-light rounded-md text-lg flex flex-row items-center
-                 hover:bg-indigo-900 hover:text-cyan-500 " >             
-                <p >More Projects</p>                
+                 hover:bg-indigo-900 hover:text-cyan-500 " >
+                <p >More Projects</p>
               </button>
             </div>
           </Link>
+        </div>
       </div>
-    </div>
 
       
 

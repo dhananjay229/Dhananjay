@@ -30,7 +30,7 @@ const Projects = ({ project, profile }) => {
     <Head>
 
       <meta charset="utf-8" />
-      <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
+      <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
       <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
       <title>{project.title}</title>
       <meta property="og:title" content="Data Science Portfolio" />
@@ -44,12 +44,12 @@ const Projects = ({ project, profile }) => {
       <meta property="og:image" content="assets\img\social.jpg" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@tailwindmade" />
-      <link crossOrigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
+      <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
       <link as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="preload" />
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
         rel="stylesheet" />
       <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-      <link crossOrigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
+      <link crossorigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
       <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
       <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
@@ -67,14 +67,14 @@ const Projects = ({ project, profile }) => {
           Check out my Portfolio
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-          Here&apos;s what I have done with the past
+          Here's what I have done with the past
         </h3>
 
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
 
           {project.map((item) => {
             return <Link key={item.slug.current} href={"/project/" + item.slug.current} className="shadow">
-              <div className="overflow-hidden cursor-pointer rounded-xl relative group">
+              <div className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group">
                 <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
                   <div>
                     <div className="transform-gpu  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
@@ -86,8 +86,7 @@ const Projects = ({ project, profile }) => {
                   </div>
                 </div>
                 <img alt="" className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                  style={{ "backgroundImage": `url(${builder.image(item.blogimage).url() || '/assets/img/post-01.png'})`,
-                  backgroundRepeat: 'no-repeat',backgroundPosition: 'center', backgroundSize: 'cover'  }}
+                  style={{ "backgroundImage": `url(${builder.image(item.blogimage).width(200).url() || '/assets/img/post-01.png'})` }}
                 />
               </div>
             </Link>
@@ -97,6 +96,29 @@ const Projects = ({ project, profile }) => {
       </div>
     </div>
 
+    {/* <section className="py-8 px-4">
+        <div className="flex flex-wrap -mx-4">
+          <div className="md:w-1/2 px-4 mb-8 md:mb-0">
+            <img className="rounded shadow-md" src="https://source.unsplash.com/random/1280x720"/>
+
+            </div>
+          <div className="md:w-1/2 px-4 mb-8 md:mb-0">
+            <img className="rounded shadow-md" src="https://source.unsplash.com/random/1280x720"/>
+
+            </div>
+        </div>
+    </section> */}
+
+    {/* <div className="container py-16 md:py-20" id="portfolio">
+        <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
+        <a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+            <img src="/assets/img/portfolio-apple.jpeg" className="w-full shadow" alt="portfolio image" />
+          </a>
+          
+        </div>
+      </div> */}
+      
+    
 
     <div className="bg-[#130F49]">
       <div className="container flex flex-col justify-between py-6 sm:flex-row">
