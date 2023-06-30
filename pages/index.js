@@ -35,7 +35,7 @@ export default function Home({ blog,project }) {
         <meta charset="utf-8" />
         <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
-        <title>{profile.title} - Developer | Coder | Software Geek</title>
+        <title>{profile.title} - Software Geek</title>
         <meta property="og:title" content="Homepage | Data Science Portfolio" />
         <meta property="og:locale" content="en_US" />
         <link rel="canonical" href="//" />
