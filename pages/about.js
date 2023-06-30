@@ -42,7 +42,7 @@ const About = ({ profile }) => {
         <meta charset="utf-8" />
         <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
-
+        <title>Dhananjay Kumar - Software Geek</title>
         <meta property="og:title" content="Data Science Portfolio" />
         <meta property="og:locale" content="en_US" />
         <link rel="canonical" href="//post" />
