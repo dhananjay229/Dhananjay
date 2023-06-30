@@ -48,6 +48,7 @@ const Contact = ({ profile }) => {
         <meta property="og:title" content="Data Science Portfolio" />
         <meta property="og:locale" content="en_US" />
         <link rel="canonical" href="//post" />
+        <title>Dhananjay Kumar - Software Geek</title>
         <meta property="og:url" content="//post" />
         <meta name="description"
           content="Data Science,Portfolio,Design,Template,Portfolio Theme,Sanity.io,Nextjs portfolio" />
