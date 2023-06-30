@@ -217,7 +217,7 @@ const Contact = ({ profile }) => {
               />
             </svg>
             <p className=" font-semibold text-violet-700 ">
-            https://dhananjay.vercel.app/
+            <a href="https://dhananjay.vercel.app/">dhananjay.vercel.app</a>
             </p>
           </div>
         </div>
