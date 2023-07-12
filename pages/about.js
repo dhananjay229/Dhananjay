@@ -82,7 +82,7 @@ const About = ({ profile }) => {
         <div className="max-w-9xl mx-auto flex flex-col items-center px-5 py-10 lg:flex-row">
          
           <div className="w-[18rem] h-[18rem] pr-1 lg:w-[25rem] lg:h-[30rem] pb-10">
-            <img src="assets/img/img-ai.jpg" alt="image" />            
+            <img src="assets/img/img-ai.png" alt="image" />            
           </div>
           <div className="flex flex-col items-center pl-0 text-center lg:mb-100 lg:w-1/2 lg:flex-grow
               lg:items-start lg:pl-12 lg:pr-24 lg:text-left lg:pb-24">
