@@ -250,7 +250,7 @@ const About = ({ profile }) => {
       <h1 className={`text-4xl font-bold text-center  my-10 gradient-text text-gray-700`}>
         Reach out
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 mx-2 md:grid-cols-3 gap-6 max-w-6xl md:mx-auto my-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mx-2 md:grid-cols-3 gap-6 max-w-6xl md:mx-auto pb-10">
         <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:cursor-pointer hover:shadow-lg transition duration-200">
           <svg
             width="24"
