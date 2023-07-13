@@ -174,7 +174,7 @@ const About = ({ profile }) => {
                             </div>
                           </div>
                         </div>
-                        <div className="mt-20 uppercase text-indigo-700 font-bold">Ramgarh Engineering College, Ramgarh</div>
+                        <div className="mt-10 uppercase text-indigo-700 font-bold">Ramgarh Engineering College, Ramgarh</div>
                         <div className="mt-6 text-sm text-gray-600"> I completed my degree in Bachelor of Technology in Computer
                           Science and Engineering in Aug, 2021 with 8.01 CGPA.
                           <br></br>
