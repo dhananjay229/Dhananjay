@@ -79,13 +79,13 @@ const About = ({ profile }) => {
 
       <NavBar profile={profile} />
       <div className="p-4 text-black ">
-        <div className="max-w-9xl mx-auto flex flex-col items-center px-5 py-10 lg:flex-row">
+        <div className="max-w-9xl mx-auto flex flex-col items-center px-5 pt-10 lg:flex-row">
          
           <div className="w-[18rem] h-[18rem] pr-1 lg:w-[25rem] lg:h-[30rem] pb-10">
             <img src="assets/img/img-ai.png" alt="image" />            
           </div>
           <div className="flex flex-col items-center pl-0 text-center lg:mb-100 lg:w-1/2 lg:flex-grow
-              lg:items-start lg:pl-12 lg:pr-24 lg:text-left lg:pb-24">
+              lg:items-start lg:pl-12 lg:pr-24 lg:text-left lg:pb-10 pb-10">
             <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">
               What&apos;s up, Dear Reader I&apos;m <span className="text-cyan-500">Dhananjay Kumar</span>
             </h2>
