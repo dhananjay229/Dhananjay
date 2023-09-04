@@ -189,24 +189,24 @@ export default function Home({ blog,project }) {
                 <h4 className="font-body font-semibold uppercase text-black">
                   My Sql
                 </h4>
-                <h3 className="font-body text-3xl font-bold text-[#130F49]">75%</h3>
+                <h3 className="font-body text-3xl font-bold text-[#130F49]">70%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-cyan-500" style={{ "width": "75%" }}></div>
+                <div className="h-3 rounded-full bg-cyan-500" style={{ "width": "70%" }}></div>
               </div>
             </div>
             <div className="pt-6">
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">Python</h4>
-                <h3 className="font-body text-3xl font-bold text-[#130F49]">80%</h3>
+                <h3 className="font-body text-3xl font-bold text-[#130F49]">75%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-cyan-500" style={{ "width": "80%" }}></div>
+                <div className="h-3 rounded-full bg-cyan-500" style={{ "width": "75%" }}></div>
               </div>
             </div>            
             <div className="pt-6">
               <div className="flex items-end justify-between">
-                <h4 className="font-body font-semibold uppercase text-black">Power Bi</h4>
+                <h4 className="font-body font-semibold uppercase text-black">Machine Learning</h4>
                 <h3 className="font-body text-3xl font-bold text-[#130F49]">75%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
