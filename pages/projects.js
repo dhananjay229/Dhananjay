@@ -32,15 +32,15 @@ const Projects = ({ project, profile }) => {
       <meta charset="utf-8" />
       <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
       <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
-      <title>Dhananjay Kumar - Software Geek</title>
-      <meta property="og:title" content="Data Science Portfolio" />
+      <title>Dhananjay Kumar</title>
+      <meta property="og:title" content="Dhananjay Kumar portfolio" />
       <meta property="og:locale" content="en_US" />
       <link rel="canonical" href="//" />
       <meta property="og:url" content="//" />
-      <meta name="description" content="Data Science,Portfolio,Design,Template,Portfolio Theme,Sanity.io,Nextjs portfolio" />
+      <meta name="description" content="Dhananjay Kumar portfolio" />
       <link rel="icon" type="image\png" href="assets\img\dk-favicon.ico" />
       <meta name="theme-color" content="#5540af" />
-      <meta property="og:site_name" content="Data Science Portfolio" />
+      <meta property="og:site_name" content="Dhananjay Kumar portfolio" />
       <meta property="og:image" content="assets\img\social.jpg" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@tailwindmade" />
