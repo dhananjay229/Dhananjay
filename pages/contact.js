@@ -48,10 +48,10 @@ const Contact = ({ profile }) => {
         <meta property="og:title" content="Data Science Portfolio" />
         <meta property="og:locale" content="en_US" />
         <link rel="canonical" href="//post" />
-        <title>Dhananjay Kumar - Software Geek</title>
+        <title>Dhananjay Kumar</title>
         <meta property="og:url" content="//post" />
         <meta name="description"
-          content="Data Science,Portfolio,Design,Template,Portfolio Theme,Sanity.io,Nextjs portfolio" />
+          content="Dhananjay Kumar portfolio" />
 
         <link rel="icon" type="image/png" href="/assets/img/dk-favicon.ico" />
         <link crossOrigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
@@ -96,23 +96,23 @@ const Contact = ({ profile }) => {
             <label htmlFor="name" className="text-black font-light mt-8 dark:text-gray-50" >
               Full Name</label>
             <input type="txt" name="name" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md
-           focus:ring-1 ring-[#5540af] font-light text-gray-500"/>
+           focus:ring-1 ring-[#5540af] font-light text-white"/>
 
             <label htmlFor="email" className="text-black font-light mt-4 dark:text-gray-50">
               E-mail</label>
             <input type="email" name="email" className=" bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md
-           focus:ring-1 ring-[#5540af] font-light text-gray-500"/>
+           focus:ring-1 ring-[#5540af] font-light text-white"/>
 
             <label htmlFor="subject" className="text-black font-light mt-4 dark:text-gray-50">
               Subject
             </label>
             <input type="tet" name="subject" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md
-           focus:ring-1 ring-[#5540af] font-light text-gray-500" />
+           focus:ring-1 ring-[#5540af] font-light text-white" />
 
             <label htmlFor="message" className="text-black font-light mt-4 dark:text-gray-50">
               Message</label>
             <textarea name="message" className=" bg-transparent border-b-2 py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1
-           ring-[#5540af] font-light text-gray-500"></textarea>
+           ring-[#5540af] font-light text-white"></textarea>
 
             <div className="flex flex-row items-center justify-start">
               <button type="submit"
