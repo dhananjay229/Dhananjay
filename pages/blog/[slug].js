@@ -19,7 +19,7 @@ const Post = ({ blog, profile, author }) => {
 
       <title>{blog.title}</title>
 
-      <meta property="og:title" content="Data Science Portfolio" />
+      <meta property="og:title" content="Dhananjay Kumar portfolio" />
 
       <meta property="og:locale" content="en_US" />
 
@@ -28,13 +28,13 @@ const Post = ({ blog, profile, author }) => {
       <meta property="og:url" content="//post" />
 
       <meta name="description"
-        content="Data Science,Portfolio,Design,Template,Portfolio Theme,Sanity.io,Nextjs portfolio" />
+        content="Dhananjay Kumar portfolio" />
 
       <link rel="icon" type="image/png" href="/assets/img/dk-favicon.ico" />
 
       <meta name="theme-color" content="#5540af" />
 
-      <meta property="og:site_name" content="Data Science Portfolio" />
+      <meta property="og:site_name" content="Dhananjay Kumar portfolio" />
 
       <meta property="og:image" content="//assets/img/social.jpg" />
 
